@@ -97,6 +97,17 @@ Predict the binary loan approval status (`Loan_Status`):
 - Map predicted labels back to `Y` and `N`.
 - Save results to `result.csv` in the required submission format.
 
+## Model Performance Comparison
+
+| Model               | Accuracy | Precision | Recall  | F1 Score |
+|---------------------|----------|-----------|---------|----------|
+| Logistic Regression | 86.18%   | 84.00%    | 98.82%  | 90.81%   |
+| Random Forest       | 85.36%   | 83.84%    | 97.64%  | 90.21%   |
+
+- **Accuracy**: Overall correctness of the model’s predictions.
+- **Precision**: Proportion of predicted positive cases that were correct.
+- **Recall**: Proportion of actual positive cases that were identified correctly.
+- **F1 Score**: Harmonic mean of precision and recall, balancing both metrics.
 
 ## Technologies Used
 
